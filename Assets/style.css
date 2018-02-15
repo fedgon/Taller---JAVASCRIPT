@@ -9,7 +9,6 @@ body {
   border-color: rgba(220,220,220,1);
   border-width: thin;
   border-radius: 20px;
-  margin: 5%;
   padding: 15px;
   display: flex;
   flex-direction: row;
@@ -39,4 +38,8 @@ body {
   width: 7rem;
   color: white;
   border-style: none;
+}
+
+.post-content {
+  width: 80%;
 }

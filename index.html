@@ -5,31 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="Assets/style.css">
-  <title>Taller JavaScript | Federico Gonzalez Desarrollador FRONT END</title>
+  <title>Taller JavaScript | Federico González Desarrollador FRONT END</title>
 </head>
 <body>
+
   <div class="row">
     <!-- Campo texto del usuario -->
-    <div class="col-6">
-      <div class="row post-backg">
+    <div class="col-6 user-tweets p-3">
+      <div class="row post-backg m-0 ml-4">
         <img class="profile-pic" src="https://ca.slack-edge.com/T6SHJS135-U8QG5V0P7-g785817947db-512" alt="">
         <textarea class="writing-space" name="name" rows="8" cols="80"></textarea>
         <div class="w-100 d-flex flex-row justify-content-end pt-2 pr-3">
           <button class="click-pub p-2" type="button" name="button">Publicar</button>
         </div>
       </div>
-
     </div>
     <!-- Campo tweets nuevos -->
-    <div class="col-6">
-
-
+    <div class="col-6 new-tweets p-3 pr-5">
+      <div class="w-100 post-backg mt-0 ml-0 mb-2 mr-5 d-flex flex-column">
+        <div class="w-100 d-flex flex-row">
+          <img class="profile-pic" src="https://ca.slack-edge.com/T6SHJS135-U8QG5V0P7-g785817947db-512" alt="">
+          <div class="post-content p-2">
+            <h6 class="profile-name m-0">Federico Gonzalez</h6>
+            <p class="writed-text mb-2">Hola mundo</p>
+          </div>
+          <a class="delete-post" href="#">X</a>
+        </div>
+        <div class="w-100 d-flex flex-row">
+          <a class="likes pl-3" href="#"></a>
+          <p class="likes-num mb-0">10</p>
+        </div>
+      </div>
     </div>
+
   </div>
-
-
-
-
 
 
   <!-- JQuery Minified 3-->
