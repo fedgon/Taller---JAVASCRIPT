@@ -33,13 +33,27 @@ body {
 }
 
 .click-pub {
-  background-color: rgba(134,207,232,1);
+  background-color: rgba(54,127,232,1);
   border-radius: 20px;
   width: 7rem;
   color: white;
   border-style: none;
 }
 
+.click-pub:hover {
+  background-color: rgba(4,77,202,1);
+}
+
 .post-content {
   width: 80%;
+}
+
+.writted-text {
+  border: 1px solid rgba(220,220,220,1);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.heart:hover {
+  color: red;
 }
